@@ -1,8 +1,25 @@
 {
-  "dependencies": {
-    "firebase": "^9.22.1"
-  },
+  "name": "acetime-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "deploy": "firebase deploy --only hosting"
+    "watch:scss": "node-sass -w ./assets/scss/style.scss ./assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acetimesolutions/acetime-website.git"
+  },
+  "author": "Acetime Soluções",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acetimesolutions/acetime-website/issues"
+  },
+  "homepage": "https://github.com/acetimesolutions/acetime-website#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
   }
 }

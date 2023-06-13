@@ -1,0 +1,10 @@
+.logo-primary {
+    background-image: url("../img/logo-1.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 50px;
+}
+
+@import "./bootstrap.scss";

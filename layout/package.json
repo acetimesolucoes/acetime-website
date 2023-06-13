@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "firebase": "^9.22.1"
+  },
+  "scripts": {
+    "deploy": "firebase deploy --only hosting"
+  }
+}
