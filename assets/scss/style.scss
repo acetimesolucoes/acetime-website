@@ -1,10 +1,18 @@
 .logo-primary {
-    background-image: url("../img/logo-1.png");
-    background-position: left;
+    width: 250px;
+}
+
+section img {
+    width: 500px;
+}
+
+footer {
+    background-image: url("../img/footer-background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 250px;
-    height: 50px;
+    background-position: center;
+    height: 500px;
+    width: 100%;
 }
 
 @import "./bootstrap.scss";
