@@ -8,7 +8,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
+      <div class="container">
         <a class="navbar-brand" href="#">
           <img
             src="assets/img/logo-1.png"
@@ -88,7 +88,7 @@
               id="header-principal-text"
               class="d-flex flex-column justify-content-around mt-5"
             >
-              <!-- <h2>Temos a solução ideal para seu projeto</h2> -->
+              <!-- <h2 class="subtitle">Temos a solução ideal para seu projeto</h2> -->
               <h1>Tranformamos <strong>negócios em tecnologia</strong></h1>
               <h4>
                 Fazemos sistemas escaláveis para um mercado digital que só
@@ -106,7 +106,7 @@
           <div class="col-lg-6">
             <div class="d-flex flex-column mt-5">
               <img
-                id="header-img-principal"
+                class="w-90"
                 src="assets/img/imagem-header.png"
                 alt=""
                 srcset=""
@@ -117,11 +117,11 @@
       </div>
     </header>
 
-    <section>
+    <section class="mt-5">
       <div class="container">
         <div class="row">
           <div class="d-flex flex-column align-items-center">
-            <h2 class="subtitle-principal">Tecnologia</h2>
+            <h2 class="subtitle">Tecnologia</h2>
             <h1>
               Utilizamos as mesmas tecnologias utilizadas<br />
               em grandes empresas
@@ -131,13 +131,15 @@
       </div>
     </section>
 
-    <section>
+    <section class="mt-5">
       <div class="container">
         <div class="d-flex flex-column align-items-center">
-          <h2 class="subtitle-principal">Serviços</h2>
+          <h2 class="subtitle">Serviços</h2>
           <h1>Alguns dos nossos serviços</h1>
         </div>
+      </div>
 
+      <div class="container">
         <div class="row">
           <div class="col-lg-4">
             <div class="card mb-3">
@@ -241,36 +243,64 @@
 
     <section>
       <div class="container">
-        <div class="row">
-          <div class="d-flex flex-column align-items-center">
-            <h2 class="subtitle-principal">Depoimentos</h2>
-            <h1>O que nossos clientes dizem</h1>
-          </div>
+        <div class="d-flex flex-column align-items-center mt-5">
+          <h2 class="subtitle">Depoimentos</h2>
+          <h1>O que nossos clientes dizem</h1>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-lg-6">
-          <img src="assets/img/depoimentos-img-2.png" alt="" />
-          <img src="assets/img/depoimentos-img-3.png" alt="" />
-          <img src="assets/img/depoimentos-img-principal.png" alt="" />
-        </div>
-        <div class="col-lg-6">
-          <img src="assets/img/imagem-bg-depoimento.png" alt="" />
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-lg-6">
+            <div class="testimonials-images-area">
+              <img
+                class="img-testimonial"
+                id="img-testimonial-2"
+                src="assets/img/depoimentos-img-2.png"
+                alt=""
+              />
+              <img
+                class="img-testimonial"
+                id="img-testimonial-3"
+                src="assets/img/depoimentos-img-3.png"
+                alt=""
+              />
+              <img
+                class="img-testimonial"
+                id="img-testimonial-1"
+                src="assets/img/depoimentos-img-principal.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="d-flex">
+              <img
+                class="w-90"
+                src="assets/img/imagem-bg-depoimento.png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section>
+    <section class="mt-5">
       <div class="container">
         <div class="d-flex flex-column align-items-center">
-          <h2 class="subtitle-principal">Sobre Nós</h2>
+          <h2 class="subtitle">Sobre Nós</h2>
           <h1>Conheça um pouco sobre nós</h1>
         </div>
 
         <div class="row">
           <div class="col-lg-6">
-            <img src="assets/img/sobre-nos-img-1.png" alt="" srcset="" />
+            <img
+              class="w-90"
+              src="assets/img/sobre-nos-img-1.png"
+              alt=""
+              srcset=""
+            />
           </div>
 
           <div class="col-lg-6">
@@ -290,13 +320,18 @@
           </div>
 
           <div class="col-lg-6">
-            <img src="assets/img/sobre-nos-img-2.png" alt="" srcset="" />
+            <img
+              class="w-90"
+              src="assets/img/sobre-nos-img-2.png"
+              alt=""
+              srcset=""
+            />
           </div>
         </div>
       </div>
     </section>
 
-    <footer>
+    <footer class="mt-5">
       <div class="container"></div>
     </footer>
   </body>

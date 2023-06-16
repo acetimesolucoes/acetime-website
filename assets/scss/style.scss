@@ -23,14 +23,11 @@ header {
             font-size: 4em;
             color: $primary;
         }
-        h2 {
-            font-size: 2em;
-        }
     }
+}
 
-    #header-img-principal {
-        width: 90%;
-    }
+.w-90 {
+    width: 90%;
 }
 
 section {
@@ -55,10 +52,34 @@ footer {
     background-color: $secondary !important;
 }
 
-.subtitle-principal {
+.subtitle {
     color: $secondary;
     text-transform: uppercase;
     font-size: small;
+}
+
+.testimonials-images-area {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+
+    #img-testimonial-1 {
+        z-index: 0;
+    }
+
+    #img-testimonial-2 {
+        z-index: 1;
+        position: absolute;
+        left: 116px;
+        // position: relative;
+        // left: 186px;
+    }
+
+    #img-testimonial-3 {
+        z-index: -1;
+        position: absolute;
+        left: 550px;
+    }
 }
 
 @import "./bootstrap.scss";
