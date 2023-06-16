@@ -1,18 +1,64 @@
+@import "./_variables.scss";
+
 .logo-primary {
     width: 250px;
 }
 
-section img {
-    width: 500px;
+body {
+    font-family: $font-family;
+}
+
+header {
+    background-image: url("../img/header-background.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    #header-principal-text {
+        position: relative;
+        // height: 100%;
+
+        h1 {
+            font-size: 4em;
+            color: $primary;
+        }
+        h2 {
+            font-size: 2em;
+        }
+    }
+
+    #header-img-principal {
+        width: 90%;
+    }
+}
+
+section {
+    margin-top: 5px;
+
+    h1 {
+        text-align: center;
+    }
 }
 
 footer {
     background-image: url("../img/footer-background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
     height: 500px;
     width: 100%;
+}
+
+.btn-atc-primary {
+    color: #fff !important;
+    background-color: $secondary !important;
+}
+
+.subtitle-principal {
+    color: $secondary;
+    text-transform: uppercase;
+    font-size: small;
 }
 
 @import "./bootstrap.scss";

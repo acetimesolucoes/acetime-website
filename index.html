@@ -8,7 +8,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
-      <div class="container">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
             src="assets/img/logo-1.png"
@@ -32,8 +32,11 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="mb-2 mb-lg-0 nav justify-content-end">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
@@ -44,9 +47,9 @@
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                href="#"
-                >Serviços</a
               >
+                Serviços
+              </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -77,143 +80,172 @@
       </div>
     </nav>
 
-    <header class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="d-flex flex-column mt-5">
-            <h2>Temos a solução ideal para seu projeto</h2>
-            <h1>Tranformamos negócios em tecnologia</h1>
-            <h4>
-              Fazemos sistemas escaláveis para um mercado digital que só cresce
-            </h4>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div
+              id="header-principal-text"
+              class="d-flex flex-column justify-content-around mt-5"
+            >
+              <!-- <h2>Temos a solução ideal para seu projeto</h2> -->
+              <h1>Tranformamos <strong>negócios em tecnologia</strong></h1>
+              <h4>
+                Fazemos sistemas escaláveis para um mercado digital que só
+                cresce
+              </h4>
 
-            <button class="btn btn-primary">Falar com um consultor</button>
+              <div class="d-grid gap-2">
+                <button class="btn btn-atc-primary mt-5" type="button">
+                  Falar com um consultor
+                </button>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div class="col-lg-6">
-          <div class="d-flex flex-column mt-5">
-            <img src="assets/img/imagem-header.png" alt="" srcset="" />
+          <div class="col-lg-6">
+            <div class="d-flex flex-column mt-5">
+              <img
+                id="header-img-principal"
+                src="assets/img/imagem-header.png"
+                alt=""
+                srcset=""
+              />
+            </div>
           </div>
         </div>
       </div>
     </header>
 
-    <section class="container">
-      <div class="row">
-        <div class="d-flex flex-column align-items-center">
-          <h2>Tecnologia</h2>
-          <h1>
-            Utilizamos as mesmas tecnologias utilizadas em grandes empresas
-          </h1>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="d-flex flex-column align-items-center">
+            <h2 class="subtitle-principal">Tecnologia</h2>
+            <h1>
+              Utilizamos as mesmas tecnologias utilizadas<br />
+              em grandes empresas
+            </h1>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="card mb-3">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">
-                Card subtitle
-              </h6>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+    <section>
+      <div class="container">
+        <div class="d-flex flex-column align-items-center">
+          <h2 class="subtitle-principal">Serviços</h2>
+          <h1>Alguns dos nossos serviços</h1>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">
+                  Card subtitle
+                </h6>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card mb-3">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">
-                Card subtitle
-              </h6>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+          <div class="col-lg-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">
+                  Card subtitle
+                </h6>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card mb-3">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">
-                Card subtitle
-              </h6>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+          <div class="col-lg-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">
+                  Card subtitle
+                </h6>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card mb-3">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">
-                Card subtitle
-              </h6>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+          <div class="col-lg-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">
+                  Card subtitle
+                </h6>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card mb-3">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">
-                Card subtitle
-              </h6>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+          <div class="col-lg-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">
+                  Card subtitle
+                </h6>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card mb-3">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">
-                Card subtitle
-              </h6>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+          <div class="col-lg-4">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">
+                  Card subtitle
+                </h6>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="container">
-      <div class="row">
-        <div class="d-flex flex-column align-items-center">
-          <h2>Depoimentos</h2>
-          <h1>O que nossos clientes dizem</h1>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="d-flex flex-column align-items-center">
+            <h2 class="subtitle-principal">Depoimentos</h2>
+            <h1>O que nossos clientes dizem</h1>
+          </div>
         </div>
       </div>
 
@@ -229,37 +261,37 @@
       </div>
     </section>
 
-    <section class="container">
-      <div class="d-flex flex-column align-items-center">
-        <div class="row">
-          <h2>Sobre Nós</h2>
+    <section>
+      <div class="container">
+        <div class="d-flex flex-column align-items-center">
+          <h2 class="subtitle-principal">Sobre Nós</h2>
           <h1>Conheça um pouco sobre nós</h1>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-lg-6">
-          <img src="assets/img/sobre-nos-img-1.png" alt="" srcset="" />
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="assets/img/sobre-nos-img-1.png" alt="" srcset="" />
+          </div>
+
+          <div class="col-lg-6">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
+            blanditiis quisquam culpa illo aliquid in totam quam eum
+            perspiciatis quas nam officia officiis dolores dignissimos molestias
+            iusto quae, asperiores hic.
+          </div>
         </div>
 
-        <div class="col-lg-6">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
-          blanditiis quisquam culpa illo aliquid in totam quam eum perspiciatis
-          quas nam officia officiis dolores dignissimos molestias iusto quae,
-          asperiores hic.
-        </div>
-      </div>
+        <div class="row">
+          <div class="col-lg-6">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
+            blanditiis quisquam culpa illo aliquid in totam quam eum
+            perspiciatis quas nam officia officiis dolores dignissimos molestias
+            iusto quae, asperiores hic.
+          </div>
 
-      <div class="row">
-        <div class="col-lg-6">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
-          blanditiis quisquam culpa illo aliquid in totam quam eum perspiciatis
-          quas nam officia officiis dolores dignissimos molestias iusto quae,
-          asperiores hic.
-        </div>
-
-        <div class="col-lg-6">
-          <img src="assets/img/sobre-nos-img-2.png" alt="" srcset="" />
+          <div class="col-lg-6">
+            <img src="assets/img/sobre-nos-img-2.png" alt="" srcset="" />
+          </div>
         </div>
       </div>
     </section>
@@ -269,5 +301,5 @@
     </footer>
   </body>
 
-  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </html>
